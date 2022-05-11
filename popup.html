@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Extension</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!--font awesome-->
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container" py-2>
+        <div class="card card-body" style="width: 21rem;">
+            <a href="https://intra.codeloccol.org/" target="_blank"> <img src="codeLoc.jpeg" class="card-img-top ml-" alt="..." style="width: 100px; margin-left: 100px;"></a>
+        </div>
+        <div class="py-2 text-center bg-dar">
+            <h3><strong id="" class="">Favorite Pages</strong></h3>   
+        </div>
+        <div class="card card-body ">
+            <div class="row py-2 ">
+                <div class="col-3">
+                    <a href="https://www.twitter.com"target="_blank"><i class="fa fa-twitter fa-3x vert "></i></a>
+                </div>
+                <div class="col-3">
+                    <a href="https://github.com/" target="_blank"> <i id="git" class="fa fa-github fa-3x vert "></i></a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.youtube.com/?hl=FR" target="_blank"><i id="yout" class="fa fa-youtube fa-3x vert "></i></a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.facebook.com/"target="_blank"><i class="fa fa-facebook fa-3x vert "></i></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="card card-body">
+            <div>
+                <input type="text" id="input-el">
+            </div>
+            <div id="butt">
+                <button id="input-btn" onclick="//saveLead()">SAVE INPUT</button>
+                <button id="tab-btn">SAVE TAB</button>
+                <button id="delete-btn">DELETE ALL</button>
+                <ul id="ul-el"></ul>
+            </div>
+            
+            
+    
+        </div>
+
+        
+    </div>
+    <script src="background.js"></script>
+</body>
+</html>
